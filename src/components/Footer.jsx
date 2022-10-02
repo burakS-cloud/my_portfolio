@@ -5,7 +5,6 @@ import {
   FaHome,
   FaPhone,
   FaMailBulk,
-  FaInstagram,
   FaLinkedin,
   FaGithub,
 } from "react-icons/fa";
@@ -50,14 +49,6 @@ const Footer = () => {
             expanding my knowledge.
           </p>
           <div className="social">
-            <FaInstagram
-              onClick={() =>
-                (window.location.href =
-                  "https://www.instagram.com/surumcuoglu/")
-              }
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem", cursor: "pointer" }}
-            />
             <FaGithub
               onClick={() =>
                 (window.location.href = "https://github.com/burakS-cloud")
