@@ -7,7 +7,7 @@ const HeroImg2 = (props) => {
     <div className="hero-img">
       <div className="heading">
         <h1>{props.heading}</h1>
-        <p>{props.text}</p>
+        <p style={{ textAlign: "center" }}>{props.text}</p>
       </div>
     </div>
   );

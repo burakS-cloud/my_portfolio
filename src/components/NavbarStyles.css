@@ -60,5 +60,6 @@
 
   .hamburger {
     display: initial;
+    margin-right: 1em;
   }
 }
