@@ -21,7 +21,11 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
       <Link to="/">
-        <h1 style={{ marginLeft: "0.5em" }}>Portfolio</h1>
+        <h1
+          style={{ marginLeft: "0.5em", fontSize: "2rem", fontWeight: "bold" }}
+        >
+          Portfolio
+        </h1>
       </Link>
 
       <ul className={click ? "nav-menu active" : "nav-menu"}>

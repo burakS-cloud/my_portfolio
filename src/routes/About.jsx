@@ -10,7 +10,7 @@ const About = () => {
       <Navbar />
       <HeroImg2
         heading="ABOUT."
-        text="I'm an eager to learn Full Stack Developer."
+        text="I'm eager to learn more about Full Stack Development."
       />
       <AboutContent />
       <Footer />

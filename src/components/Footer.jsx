@@ -18,37 +18,41 @@ const Footer = () => {
           <div className="location">
             <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
             <div>
-              <p>Nilüfer/Bursa</p>
-              <p>Türkiye</p>
+              <p style={{ marginTop: "-.25em" }}>Wroclaw/Poland</p>
             </div>
           </div>
-          <div className="phone">
+          <div
+            style={{ display: "flex", marginBottom: "1em", marginTop: ".5em" }}
+            className="phone"
+          >
             <h4>
               <FaPhone
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-              +90 534 065 54 52
             </h4>
+            <p style={{ marginTop: "-.25em" }}>+90 534 065 54 52</p>
           </div>
-          <div className="email">
+          <div style={{ display: "flex" }} className="email">
             <h4>
               <FaMailBulk
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-              bsurumcuoglu@gmail.com
             </h4>
+            <p style={{ marginTop: "-.3em" }}>bsurumcuoglu@gmail.com</p>
           </div>
         </div>
         <div className="right">
-          <h4>About the individual</h4>
+          <h4 style={{ fontSize: "1.2rem", fontWeight: "bold" }}>
+            About the individual
+          </h4>
           <p>
             This is me, Burak Sürümcüoğlu. Computer Engineering Graduate & Full
             Stack Developer. I'm passionate about learning new tech and
             expanding my knowledge.
           </p>
-          <div className="social">
+          <div style={{ display: "flex" }} className="social">
             <FaGithub
               onClick={() =>
                 (window.location.href = "https://github.com/burakS-cloud")

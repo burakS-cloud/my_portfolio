@@ -6,7 +6,12 @@ const WorkCard = (props) => {
   return (
     <div className="project-card">
       <img src={props.imgsrc} alt="img" />
-      <h2 className="project-title">{props.title}</h2>
+      <h2
+        style={{ fontSize: "1.5rem", fontWeight: "bold" }}
+        className="project-title"
+      >
+        {props.title}
+      </h2>
       <div className="pro-details">
         <p className="project-description">{props.text}</p>
         <div className="pro-btns">
